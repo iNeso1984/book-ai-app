@@ -52,7 +52,7 @@ def get_moderation(question):
 
 
 
-demo = gradio.Interface(fn=CustomChatGPT, inputs="text", placeholcer="Question here",
+demo = gradio.Interface(fn=CustomChatGPT, inputs="text",
                         outputs="text", title="Help Me Find a Good Book?")
 
 demo.launch(share=True)
