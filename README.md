@@ -12,8 +12,8 @@ This project is a book AI created with OpenAI's API, Python, and Gradio. It is a
 
 ## Requirements 
 - Python 3.6+ 
-- ![Gradio](https://gradio.app/docs/) 
-- ![openai account](https://platform.openai.com/)
+- [Gradio](https://gradio.app/docs/) 
+- [openai account](https://platform.openai.com/)
 
 ## Installation 
 1. Clone the repository 
