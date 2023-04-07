@@ -12,7 +12,8 @@ This project is a book AI created with OpenAI's API, Python, and Gradio. It is a
 
 ## Requirements 
 - Python 3.6+ 
-- Gradio 
+- ![Gradio](https://gradio.app/docs/) 
+- ![openai account](https://platform.openai.com/)
 
 ## Installation 
 1. Clone the repository 
@@ -22,6 +23,9 @@ git clone https://github.com/username/projectname
 2. Install the required packages 
 ```
 pip install -r requirements.txt
+pip install gradio
+pip install --upgrade openai
+pip install python-dotenv --> you can also set up secret keys with GitHub Actions. 
 ```
 3. Run the program 
 ```
